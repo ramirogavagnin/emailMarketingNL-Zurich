@@ -2,16 +2,18 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <title>Zurich</title>
-</head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;">
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
 
 <body style="margin:0 !important; padding:0;" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
     <style type="text/css">
         body {
             margin: 0;
             padding: 0;
-
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
         }
 
         p {
@@ -35,7 +37,6 @@
 
         table td {
             border-collapse: collapse;
-            padding: 0 !important;
         }
 
         .imgcomun {
@@ -86,6 +87,7 @@
         .vxs {
             display: none !important;
         }
+            /*=== MEDIA QUERY ===*/
 
         @media screen and (max-width: 480px) {
 
@@ -96,24 +98,33 @@
             }
 
             .text-mobile {
-                font-size: 10px !important;
+                font-size: 6px !important;
+                line-height: normal !important;
             }
 
-            .text-mobile3 {
-                font-size: 10px !important;
+            .text-mobile-2 {
+                font-size: 11px !important;
+                line-height: normal !important;
             }
 
-            .text-mobile8 {
-                font-size: 15px !important;
+            .text-mobile-3 {
+                font-size: 9px !important;
+                line-height: normal !important;
             }
 
-            .text-mobile4 {
+            .text-mobile-4 {
+                font-size: 14px !important;
+                line-height: normal !important;
+            }
+
+            .text-mobile-5 {
                 font-size: 12px !important;
                 line-height: normal !important;
             }
 
-            .text-mobiletit {
-                font-size: 6px !important;
+            .text-mobile-footer {
+                font-size: 4px !important;
+                line-height: 5px !important;
             }
 
             .imgcomun {
@@ -126,6 +137,26 @@
                 width: 100% !important;
                 height: auto !important;
                 display: block !important;
+            }
+
+            .height-10 {
+                height: 5px !important;
+            }
+
+            .height-15 {
+                height: 10px !important;
+            }
+
+            .height-20 {
+                height: 15px !important;
+            }
+
+            .height-25 {
+                height: 20px !important;
+            }
+
+            .height-30 {
+                height: 25px !important;
             }
 
             .vxs {
@@ -147,7 +178,7 @@
         style="text-decoration:none !important;" margin="0 !important">
         <tbody>
             <tr>
-                <td height="20" align="center" valign="top" style="text-decoration:none !important;">
+                <td height="20" align="center" valign="top" style="text-decoration:none !important;" class="height-20">
 
                     <!-- 650px container -->
 
@@ -155,16 +186,18 @@
                         style="width:650px;max-width:650px;text-decoration:none !important;" class="container">
                         <tbody>
                             <tr bgcolor="#3fa2ff">
-                                <td width="4%" height="25"></td>
-                                <td height="25" align="center">
+                                <td width="4%" height="25" class="height-25"></td>
+                                <td width="92%" height="25" align="center" class="height-25">
                                     <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                         <tbody>
                                             <tr>
                                                 <td width="34%"
-                                                    style="color: white; font-family: Arial, Helvetica, sans-serif; font-size: 11px; text-align: left;">
+                                                    style="color: white; font-family: Arial, Helvetica, sans-serif; font-size: 11px; text-align: left;"
+                                                    class="text-mobile">
                                                     PUBLICIDAD</td>
                                                 <td width="66%" align="right"
-                                                    style="color:white; font-family: Arial, Helvetica, sans-serif; font-size: 11px;">
+                                                    style="color:white; font-family: Arial, Helvetica, sans-serif; font-size: 11px;"
+                                                    class="text-mobile">
                                                     ¿Tenés problemas para ver este email? Hacé <a
                                                         color="white !important"
                                                         href="https://www.americanexpress.com/ar/tarjetas-de-credito/nuestras-tarjetas/?cpid=100141273&dsparms=dc_pcrid_333225951811_kword_american%20express_match_e&gclid=Cj0KCQiAk-7jBRD9ARIsAEy8mh4P2TVZB8WgmiDUf7Tz6xR3uih61A3DLwQQ7N7UmBwc3mVrXU6dpoAaAkLEEALw_wcB&gclsrc=aw.ds"
@@ -173,15 +206,15 @@
                                         </tbody>
                                     </table>
                                 </td>
-                                <td width="4%" height="25"></td>
+                                <td width="4%" height="25" class="height-25"></td>
                             </tr>
                             <tr>
-                                <td width="4%" height="15" bgcolor="#3fa2ff"></td>
-                                <td width="92%" height="15"></td>
-                                <td width="4%" height="15" bgcolor="#3fa2ff"></td>
+                                <td width="4%" height="15" bgcolor="#3fa2ff" class="height-15"></td>
+                                <td width="92%" height="15" class="height-15"></td>
+                                <td width="4%" height="15" bgcolor="#3fa2ff" class="height-15"></td>
                             </tr>
                             <tr>
-                                <td width="4%" height="15" bgcolor="#3fa2ff"></td>
+                                <td width="4%" height="15" bgcolor="#3fa2ff" class="height-15"></td>
                                 <td width="92%">
                                     <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                         <tbody>
@@ -194,19 +227,19 @@
                                         </tbody>
                                     </table>
                                 </td>
-                                <td width="4%" height="15" bgcolor="#3fa2ff"></td>
+                                <td width="4%" height="15" bgcolor="#3fa2ff" class="height-15"></td>
                             </tr>
                             <tr>
-                                <td width="4%" height="25" bgcolor="#3fa2ff"></td>
+                                <td width="4%" height="25" bgcolor="#3fa2ff" class="height-25"></td>
                                 <td width="92%"></td>
-                                <td width="4%" height="25" bgcolor="#3fa2ff"></td>
+                                <td width="4%" height="25" bgcolor="#3fa2ff" class="height-25"></td>
                             </tr>
                             <tr>
                                 <td width="4%" bgcolor="#3fa2ff"></td>
                                 <td width="92%">
-                                    <table width="100%" bgcolor="#d6d6d6">
+                                    <table width="100%" bgcolor="#ededed">
                                         <tbody>
-                                            <tr height="1px" bgcolor="#d6d6d6"></tr>
+                                            <tr height="1px" bgcolor="#ededed"></tr>
                                         </tbody>
 
                                     </table>
@@ -214,13 +247,15 @@
                                 <td width="4%" bgcolor="#3fa2ff"></td>
                             </tr>
                             <tr>
-                                <td width="4%" height="15" bgcolor="#3fa2ff"></td>
-                                <td width="92%" height="15"></td>
-                                <td width="4%" height="15" bgcolor="#3fa2ff"></td>
+                                <td width="4%" height="15" bgcolor="#3fa2ff" class="height-15"></td>
+                                <td width="92%" height="15" class="height-15"></td>
+                                <td width="4%" height="15" bgcolor="#3fa2ff" class="height-15"></td>
                             </tr>
                             <tr>
-                                <td width="4%" height="25" bgcolor="#3fa2ff"></td>
-                                <td width="92%">
+                                <td width="4%" height="25" bgcolor="#3fa2ff" class="height-25"></td>
+                                <td width="92%"
+                                    style="color:#001970; font-family: Arial, Helvetica, sans-serif; font-size: 16px; text-align: left;"
+                                    class="text-mobile-2">
                                     <table width="100%">
                                         <tbody>
                                             <tr>
@@ -233,21 +268,23 @@
                                         </tbody>
                                     </table>
                                 </td>
-                                <td width="4%" height="25" bgcolor="#3fa2ff"></td>
+                                <td width="4%" height="25" bgcolor="#3fa2ff" class="height-25"></td>
                             </tr>
                             <tr>
-                                <td width="4%" height="15" bgcolor="#3fa2ff"></td>
-                                <td width="92%" height="15"></td>
-                                <td width="4%" height="15" bgcolor="#3fa2ff"></td>
+                                <td width="4%" height="15" bgcolor="#3fa2ff" class="height-15"></td>
+                                <td width="92%" height="15" class="height-15"></td>
+                                <td width="4%" height="15" bgcolor="#3fa2ff" class="height-15"></td>
                             </tr>
                             <tr>
-                                <td width="4%" height="25" bgcolor="#3fa2ff"></td>
+                                <td width="4%" height="25" bgcolor="#3fa2ff" class="height-25"></td>
                                 <td width="92%">
                                     <table width="100%">
                                         <tbody>
                                             <tr>
                                                 <td width="10%"></td>
-                                                <td width="85%">
+                                                <td width="85%"
+                                                    style="color:#001970; font-family: Arial, Helvetica, sans-serif; font-size: 14px; text-align: left;"
+                                                    class="text-mobile-3">
                                                     <table width="100%">
                                                         <tbody>
                                                             <tr>
@@ -271,12 +308,12 @@
                                         </tbody>
                                     </table>
                                 </td>
-                                <td width="4%" height="25" bgcolor="#3fa2ff"></td>
+                                <td width="4%" height="25" bgcolor="#3fa2ff" class="height-25"></td>
                             </tr>
                             <tr>
-                                <td width="4%" height="15" bgcolor="#3fa2ff"></td>
-                                <td width="92%" height="15"></td>
-                                <td width="4%" height="15" bgcolor="#3fa2ff"></td>
+                                <td width="4%" height="15" bgcolor="#3fa2ff" class="height-15"></td>
+                                <td width="92%" height="15" class="height-15"></td>
+                                <td width="4%" height="15" bgcolor="#3fa2ff" class="height-15"></td>
                             </tr>
 
                             <tr>
@@ -286,9 +323,9 @@
                                 <td width="4%" bgcolor="#3fa2ff"></td>
                             </tr>
                             <tr>
-                                <td width="4%" height="30" bgcolor="#3fa2ff"></td>
-                                <td width="92%" height="30" bgcolor="#001970"></td>
-                                <td width="4%" height="30" bgcolor="#3fa2ff"></td>
+                                <td width="4%" height="25" bgcolor="#3fa2ff" class="height-25"></td>
+                                <td width="92%" height="25" bgcolor="#001970" class="height-25"></td>
+                                <td width="4%" height="25" bgcolor="#3fa2ff" class="height-25"></td>
                             </tr>
                             <tr>
                                 <td width="4%" bgcolor="#3fa2ff"></td>
@@ -298,14 +335,16 @@
                                             <tr>
                                                 <td width="5%" bgcolor="#001970"></td>
                                                 <td width="90%" bgcolor="#001970">
-                                                    <table width="100%">
+                                                    <table width="100%"
+                                                        style="color: white; font-family: Arial, Helvetica, sans-serif; font-size: 20px; text-align: left;"
+                                                        class="text-mobile-4">
                                                         <tbody>
                                                             <tr>
 
-                                                                <td
-                                                                    style="color: white; font-family: Arial, Helvetica, sans-serif; font-size: 20px; text-align: left;">
+                                                                <td>
                                                                     <strong>Estés donde estés, hagas lo que
-                                                                        hagas,</strong>
+                                                                        hagas,<br>
+                                                                        te respaldamos.</strong>
                                                                 </td>
                                                             </tr>
                                                         </tbody>
@@ -319,41 +358,14 @@
                                 <td width="4%" bgcolor="#3fa2ff"></td>
                             </tr>
                             <tr>
-                                <td width="4%" bgcolor="#3fa2ff"></td>
-                                <td width="92%">
-                                    <table width="100%">
-                                        <tbody>
-                                            <tr>
-                                                <td width="5%" bgcolor="#001970"></td>
-                                                <td width="90%" bgcolor="#001970">
-                                                    <table width="100%">
-                                                        <tbody>
-                                                            <tr>
-
-                                                                <td
-                                                                    style="color: white; font-family: Arial, Helvetica, sans-serif; font-size: 20px; text-align: left;">
-                                                                    <strong>te respaldamos.</strong>
-                                                                </td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                </td>
-                                                <td width="5%" bgcolor="#001970"></td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </td>
-                                <td width="4%" bgcolor="#3fa2ff"></td>
+                                <td width="4%" height="20" bgcolor="#3fa2ff" class="height-20"></td>
+                                <td width="92%" height="20" bgcolor="#001970" class="height-20"></td>
+                                <td width="4%" height="20" bgcolor="#3fa2ff" class="height-20"></td>
                             </tr>
                             <tr>
-                                <td width="4%" height="20" bgcolor="#3fa2ff"></td>
-                                <td width="92%" height="20" bgcolor="#001970"></td>
-                                <td width="4%" height="20" bgcolor="#3fa2ff"></td>
-                            </tr>
-                            <tr>
-                                <td width="4%" height="30" bgcolor="#3fa2ff"></td>
-                                <td width="92%" height="30" bgcolor="#ededed"></td>
-                                <td width="4%" height="30" bgcolor="#3fa2ff"></td>
+                                <td width="4%" height="30" bgcolor="#3fa2ff" class="height-30"></td>
+                                <td width="92%" height="30" bgcolor="#ededed" class="height-30"></td>
+                                <td width="4%" height="30" bgcolor="#3fa2ff" class="height-30"></td>
                             </tr>
                             <tr>
                                 <td width="4%" bgcolor="#3fa2ff"></td>
@@ -367,8 +379,8 @@
                                                         <tbody>
                                                             <tr>
 
-                                                                <td
-                                                                    style="color: #001970; font-family: Arial, Helvetica, sans-serif; font-size: 20px; text-align: left;">
+                                                                <td style="color: #001970; font-family: Arial, Helvetica, sans-serif; font-size: 17px; text-align: left;"
+                                                                    class="text-mobile-5">
                                                                     <strong>Tu tranquilidad es lo más
                                                                         importante.</strong>
                                                                 </td>
@@ -384,9 +396,9 @@
                                 <td width="4%" bgcolor="#3fa2ff"></td>
                             </tr>
                             <tr>
-                                <td width="4%" height="10" bgcolor="#3fa2ff"></td>
-                                <td width="92%" height="10" bgcolor="#ededed"></td>
-                                <td width="4%" height="10" bgcolor="#3fa2ff"></td>
+                                <td width="4%" height="10" bgcolor="#3fa2ff" class="height-10"></td>
+                                <td width="92%" height="10" bgcolor="#ededed" class="height-10"></td>
+                                <td width="4%" height="10" bgcolor="#3fa2ff" class="height-10"></td>
                             </tr>
                             <tr>
                                 <td width="4%" bgcolor="#3fa2ff"></td>
@@ -400,8 +412,9 @@
                                                         <tbody>
                                                             <tr>
 
-                                                                <td
-                                                                    style="color: #001970; font-family: Arial, Helvetica, sans-serif; font-size: 14px; text-align: justify;">
+                                                                <td style="color: #001970; font-family: Arial, Helvetica, sans-serif; font-size: 14px; text-align: justify;"
+                                                                    class="text-mobile-3">
+
                                                                     <p>
                                                                         Al contratar un seguro o un servicio de
                                                                         asistencia al viajero a través de American
@@ -425,14 +438,14 @@
                                 <td width="4%" bgcolor="#3fa2ff"></td>
                             </tr>
                             <tr>
-                                <td width="4%" height="15" bgcolor="#3fa2ff"></td>
-                                <td width="92%" height="15" bgcolor="#ededed"></td>
-                                <td width="4%" height="15" bgcolor="#3fa2ff"></td>
+                                <td width="4%" height="15" bgcolor="#3fa2ff" class="height-15"></td>
+                                <td width="92%" height="15" bgcolor="#ededed" class="height-15"></td>
+                                <td width="4%" height="15" bgcolor="#3fa2ff" class="height-15"></td>
                             </tr>
                             <tr>
-                                <td width="4%" height="15" bgcolor="#3fa2ff"></td>
-                                <td width="92%" height="15" bgcolor="#ffffff"></td>
-                                <td width="4%" height="15" bgcolor="#3fa2ff"></td>
+                                <td width="4%" height="15" bgcolor="#3fa2ff" class="height-15"></td>
+                                <td width="92%" height="15" bgcolor="#ffffff" class="height-15"></td>
+                                <td width="4%" height="15" bgcolor="#3fa2ff" class="height-15"></td>
                             </tr>
                             <tr>
                                 <td width="4%" bgcolor="#3fa2ff"></td>
@@ -446,8 +459,8 @@
                                                         <tbody>
                                                             <tr>
 
-                                                                <td
-                                                                    style="color: #001970; font-family: Arial, Helvetica, sans-serif; font-size: 14px; text-align: justify;">
+                                                                <td style="color: #001970; font-family: Arial, Helvetica, sans-serif; font-size: 14px; text-align: justify;"
+                                                                    class="text-mobile-3">
                                                                     <p>
                                                                         Estamos a tu disposición para atender de manera
                                                                         exclusiva cualquier consulta o inquietud sobre
@@ -468,9 +481,9 @@
                                 <td width="4%" bgcolor="#3fa2ff"></td>
                             </tr>
                             <tr>
-                                <td width="4%" height="10" bgcolor="#3fa2ff"></td>
-                                <td width="92%" height="10" bgcolor="#ffffff"></td>
-                                <td width="4%" height="10" bgcolor="#3fa2ff"></td>
+                                <td width="4%" height="10" bgcolor="#3fa2ff" class="height-10"></td>
+                                <td width="92%" height="10" bgcolor="#ffffff" class="height-10"></td>
+                                <td width="4%" height="10" bgcolor="#3fa2ff" class="height-10"></td>
                             </tr>
                             <tr>
                                 <td width="4%" bgcolor="#3fa2ff"></td>
@@ -484,8 +497,8 @@
                                                         <tbody>
                                                             <tr>
 
-                                                                <td
-                                                                    style="color: #001970; font-family: Arial, Helvetica, sans-serif; font-size: 14px; text-align: justify;">
+                                                                <td style="color: #001970; font-family: Arial, Helvetica, sans-serif; font-size: 14px; text-align: justify;"
+                                                                    class="text-mobile-3">
                                                                     <p>
                                                                         Te invitamos a comunicarte al
                                                                         <strong>0810-888-SEGU (7348)</strong> , de lunes
@@ -506,9 +519,9 @@
                                 <td width="4%" bgcolor="#3fa2ff"></td>
                             </tr>
                             <tr>
-                                <td width="4%" height="20" bgcolor="#3fa2ff"></td>
-                                <td width="92%" height="20" bgcolor="#ffffff"></td>
-                                <td width="4%" height="20" bgcolor="#3fa2ff"></td>
+                                <td width="4%" height="20" bgcolor="#3fa2ff" class="height-20"></td>
+                                <td width="92%" height="20" bgcolor="#ffffff" class="height-20"></td>
+                                <td width="4%" height="20" bgcolor="#3fa2ff" class="height-20"></td>
                             </tr>
                             <tr>
                                 <td width="4%" bgcolor="#3fa2ff"></td>
@@ -519,7 +532,8 @@
                                                 <td width="8%"></td>
                                                 <td width="84%">
                                                     <table width="100%"
-                                                        style="color: #001970; font-family: Arial, Helvetica, sans-serif; font-size: 14px; text-align: center">
+                                                        style="color: #001970; font-family: Arial, Helvetica, sans-serif; font-size: 14px; text-align: center"
+                                                        class="text-mobile-3">
                                                         <tbody>
                                                             <tr>
 
@@ -529,7 +543,7 @@
                                                                             <tr>
                                                                                 <td>
                                                                                     <img src="./img/airplane.png"
-                                                                                        alt="Avion">
+                                                                                        alt="Avion" class="imgcomun">
                                                                                 </td>
 
                                                                             </tr>
@@ -553,7 +567,7 @@
                                                                             <tr>
                                                                                 <td>
                                                                                     <img src="./img/heart.png"
-                                                                                        alt="Corazon">
+                                                                                        alt="Corazon" class="imgcomun">
                                                                                 </td>
                                                                             </tr>
                                                                             <tr width="100%" height="5"></tr>
@@ -570,7 +584,8 @@
                                                                         <tbody>
                                                                             <tr>
                                                                                 <td>
-                                                                                    <img src="./img/car.png" alt="Auto">
+                                                                                    <img src="./img/car.png" alt="Auto"
+                                                                                        class="imgcomun">
                                                                                 </td>
 
                                                                             </tr>
@@ -588,8 +603,8 @@
                                                                         <tbody>
                                                                             <tr>
                                                                                 <td>
-                                                                                    <img src="./img/home.png"
-                                                                                        alt="Casa">
+                                                                                    <img src="./img/home.png" alt="Casa"
+                                                                                        class="imgcomun">
                                                                                 </td>
 
                                                                             </tr>
@@ -609,7 +624,8 @@
                                                                             <tr>
                                                                                 <td>
                                                                                     <img src="./img/portfolio.png"
-                                                                                        alt="Portafolio">
+                                                                                        alt="Portafolio"
+                                                                                        class="imgcomun">
                                                                                 </td>
 
                                                                             </tr>
@@ -641,87 +657,306 @@
                             </tr>
 
                             <tr>
-                                    <td width="4%" height="30" bgcolor="#3fa2ff"></td>
-                                    <td width="92%" height="30" bgcolor="#ffffff"></td>
-                                    <td width="4%" height="30" bgcolor="#3fa2ff"></td>
-                                </tr>
+                                <td width="4%" height="30" bgcolor="#3fa2ff" class="height-30"></td>
+                                <td width="92%" height="30" bgcolor="#ffffff" class="height-30"></td>
+                                <td width="4%" height="30" bgcolor="#3fa2ff" class="height-30"></td>
+                            </tr>
                             <tr>
-                                    <td width="4%" height="25" bgcolor="#3fa2ff"></td>
-                                    <td width="92%" height="25" bgcolor="#001970"></td>
-                                    <td width="4%" height="25" bgcolor="#3fa2ff"></td>
-                                </tr>
-                                <tr>
-                                    <td width="4%" bgcolor="#3fa2ff"></td>
-                                    <td width="92%">
-                                        <table width="100%">
-                                            <tbody>
-                                                <tr>
-                                                    <td width="5%" bgcolor="#001970"></td>
-                                                    <td width="90%" bgcolor="#001970">
-                                                        <table width="100%">
-                                                            <tbody>
-                                                                <tr>
-    
-                                                                    <td
-                                                                        style="color: white; font-family: Arial, Helvetica, sans-serif; font-size: 15px; text-align: center;">
-                                                                        Comunicate al <strong> 0810-888-SEGU (7348)</strong>
-                                                                            
-                                                                    </td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </td>
-                                                    <td width="5%" bgcolor="#001970"></td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </td>
-                                    <td width="4%" bgcolor="#3fa2ff"></td>
-                                </tr>
-                                <tr>
-                                    <td width="4%" bgcolor="#3fa2ff"></td>
-                                    <td width="92%">
-                                        <table width="100%">
-                                            <tbody>
-                                                <tr>
-                                                    <td width="5%" bgcolor="#001970"></td>
-                                                    <td width="90%" bgcolor="#001970">
-                                                        <table width="100%">
-                                                            <tbody>
-                                                                <tr>
-    
-                                                                    <td
-                                                                    style="color: white; font-family: Arial, Helvetica, sans-serif; font-size: 15px; text-align: center;">
+                                <td width="4%" height="25" bgcolor="#3fa2ff" class="height-25"></td>
+                                <td width="92%" height="25" bgcolor="#001970" class="height-25"></td>
+                                <td width="4%" height="25" bgcolor="#3fa2ff" class="height-25"></td>
+                            </tr>
+                            <tr>
+                                <td width="4%" bgcolor="#3fa2ff"></td>
+                                <td width="92%">
+                                    <table width="100%">
+                                        <tbody>
+                                            <tr>
+                                                <td width="5%" bgcolor="#001970"></td>
+                                                <td width="90%" bgcolor="#001970">
+                                                    <table width="100%">
+                                                        <tbody>
+                                                            <tr>
+
+                                                                <td style="color: white; font-family: Arial, Helvetica, sans-serif; font-size: 14px; text-align: center;"
+                                                                    class="text-mobile-3">
+                                                                    Comunicate al <strong> 0810-888-SEGU (7348)</strong>
+                                                                    <br>
                                                                     de lunes a viernes de <strong>9 a 20 horas.</strong>
-                                                                    </td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </td>
-                                                    <td width="5%" bgcolor="#001970"></td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </td>
-                                    <td width="4%" bgcolor="#3fa2ff"></td>
-                                </tr>
-                                <tr>
-                                    <td width="4%" height="20" bgcolor="#3fa2ff"></td>
-                                    <td width="92%" height="20" bgcolor="#001970"></td>
-                                    <td width="4%" height="20" bgcolor="#3fa2ff"></td>
-                                </tr>
+
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                                <td width="5%" bgcolor="#001970"></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                                <td width="4%" bgcolor="#3fa2ff"></td>
+                            </tr>
+                            <tr>
+                                <td width="4%" height="20" bgcolor="#3fa2ff" class="height-20"></td>
+                                <td width="92%" height="20" bgcolor="#001970" class="height-20"></td>
+                                <td width="4%" height="20" bgcolor="#3fa2ff" class="height-20"></td>
+                            </tr>
 
 
+                            <tr>
+                                <td width="4%" height="20" bgcolor="#3fa2ff" class="height-20"></td>
+                                <td width="92%" height="20" bgcolor="#ffffff" class="height-20"></td>
+                                <td width="4%" height="20" bgcolor="#3fa2ff" class="height-20"></td>
+                            </tr>
 
+                            <tr>
+                                <td width="4%" bgcolor="#3fa2ff"></td>
+                                <td width="92%" bgcolor="#ffffff">
+                                    <table width="100%">
+                                        <tbody>
+                                            <tr>
+                                                <td width="45%"></td>
+                                                <td width="10%"><img src="./img/facebook.png" alt="Facebook"
+                                                        class="imgcomun"></td>
+                                                <td width="45%"></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                                <td width="4%" bgcolor="#3fa2ff"></td>
+                            </tr>
 
-                            <!-- ---------END-------- -->
+                            <tr>
+                                <td width="4%" height="10" bgcolor="#3fa2ff" class="height-10"></td>
+                                <td width="92%" height="10" bgcolor="#ffffff" class="height-10"></td>
+                                <td width="4%" height="10" bgcolor="#3fa2ff" class="height-10"></td>
+                            </tr>
+                            <tr>
+                                <td width="4%" bgcolor="#3fa2ff"></td>
+                                <td width="92%">
+                                    <table width="100%" bgcolor="#ededed">
+                                        <tbody>
+                                            <tr height="1px" bgcolor="#ededed"></tr>
+                                        </tbody>
+
+                                    </table>
+                                </td>
+                                <td width="4%" bgcolor="#3fa2ff"></td>
+                            </tr>
+                            <tr>
+                                <td width="4%" height="25" bgcolor="#3fa2ff" class="height-25"></td>
+                                <td width="92%" height="25" bgcolor="#ffffff" class="height-25"></td>
+                                <td width="4%" height="25" bgcolor="#3fa2ff" class="height-25"></td>
+                            </tr>
+
+                            <tr>
+                                <td width="4%" bgcolor="#3fa2ff"></td>
+                                <td width="92%" bgcolor="#ffffff">
+                                    <table width="100%">
+                                        <tbody>
+                                            <tr>
+                                                <td width="40%"></td>
+                                                <td width="20%"><img src="./img/sin-ella.jpg"
+                                                        alt="No vivas la vida sin ella" class="imgcomun"></td>
+                                                <td width="40%"></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                                <td width="4%" bgcolor="#3fa2ff"></td>
+                            </tr>
+                            <tr>
+                                <td width="4%" height="30" bgcolor="#3fa2ff" class="height-30"></td>
+                                <td width="92%" height="30" bgcolor="#ffffff" class="height-30"></td>
+                                <td width="4%" height="30" bgcolor="#3fa2ff" class="height-30"></td>
+                            </tr>
+                            <tr>
+                                <td width="4%" bgcolor="#3fa2ff"></td>
+                                <td width="92%" bgcolor="#ffffff">
+                                    <table width="100%">
+                                        <tbody>
+                                            <tr>
+                                                <td width="8%"></td>
+                                                <td width="84%">
+                                                    <table width="100%">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td width="15%"><a
+                                                                        style="color: #001970; font-family: Arial, Helvetica, sans-serif; font-size: 16px; text-align: left;"
+                                                                        href="https://www.americanexpress.com/ar/tarjetas-de-credito/nuestras-tarjetas/?cpid=100141273&dsparms=dc_pcrid_333225951811_kword_american%20express_match_e&gclid=Cj0KCQiAk-7jBRD9ARIsAEy8mh4P2TVZB8WgmiDUf7Tz6xR3uih61A3DLwQQ7N7UmBwc3mVrXU6dpoAaAkLEEALw_wcB&gclsrc=aw.ds"
+                                                                        target="_blank"
+                                                                        class="text-mobile-3">Privacidad</a></td>
+                                                                <td width="8.3%"></td>
+                                                                <td width="15%"><a
+                                                                        style="color: #001970; font-family: Arial, Helvetica, sans-serif; font-size: 16px; text-align: left;"
+                                                                        href="https://www.americanexpress.com/ar/tarjetas-de-credito/nuestras-tarjetas/?cpid=100141273&dsparms=dc_pcrid_333225951811_kword_american%20express_match_e&gclid=Cj0KCQiAk-7jBRD9ARIsAEy8mh4P2TVZB8WgmiDUf7Tz6xR3uih61A3DLwQQ7N7UmBwc3mVrXU6dpoAaAkLEEALw_wcB&gclsrc=aw.ds"
+                                                                        target="_blank"
+                                                                        class="text-mobile-3">Contacto</a></td>
+                                                                <td width="8.3%"></td>
+                                                                <td width="30%"><a
+                                                                        style="color: #001970; font-family: Arial, Helvetica, sans-serif; font-size: 16px; text-align: left;"
+                                                                        href="https://www.americanexpress.com/ar/tarjetas-de-credito/nuestras-tarjetas/?cpid=100141273&dsparms=dc_pcrid_333225951811_kword_american%20express_match_e&gclid=Cj0KCQiAk-7jBRD9ARIsAEy8mh4P2TVZB8WgmiDUf7Tz6xR3uih61A3DLwQQ7N7UmBwc3mVrXU6dpoAaAkLEEALw_wcB&gclsrc=aw.ds"
+                                                                        target="_blank" class="text-mobile-3">Actualizar
+                                                                        contacto</a></td>
+                                                                <td width="8.3%"></td>
+                                                                <td width="15%"><a
+                                                                        style="color: #001970; font-family: Arial, Helvetica, sans-serif; font-size: 16px; text-align: left;"
+                                                                        href="https://www.americanexpress.com/ar/tarjetas-de-credito/nuestras-tarjetas/?cpid=100141273&dsparms=dc_pcrid_333225951811_kword_american%20express_match_e&gclid=Cj0KCQiAk-7jBRD9ARIsAEy8mh4P2TVZB8WgmiDUf7Tz6xR3uih61A3DLwQQ7N7UmBwc3mVrXU6dpoAaAkLEEALw_wcB&gclsrc=aw.ds"
+                                                                        target="_blank"
+                                                                        class="text-mobile-3">Desuscribirse</a></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                                <td width="8%"></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                                <td width="4%" bgcolor="#3fa2ff"></td>
+                            </tr>
+                            <tr>
+                                <td width="4%" height="30" bgcolor="#3fa2ff" class="height-30"></td>
+                                <td width="92%" height="30" bgcolor="#ffffff" class="height-30"></td>
+                                <td width="4%" height="30" bgcolor="#3fa2ff" class="height-30"></td>
+                            </tr>
+                            <tr>
+                                <td width="4%" bgcolor="#3fa2ff"></td>
+                                <td width="92%">
+                                    <table width="100%" bgcolor="#ededed">
+                                        <tbody>
+                                            <tr height="1px" bgcolor="#ededed"></tr>
+                                        </tbody>
+
+                                    </table>
+                                </td>
+                                <td width="4%" bgcolor="#3fa2ff"></td>
+                            </tr>
+                            <tr>
+                                <td width="4%" height="15" bgcolor="#3fa2ff" class="height-15"></td>
+                                <td width="92%" height="15" bgcolor="#ffffff" class="height-15"></td>
+                                <td width="4%" height="15" bgcolor="#3fa2ff" class="height-15"></td>
+                            </tr>
+
+                            <tr>
+                                <td width="4%" bgcolor="#3fa2ff"></td>
+                                <td width="92%" bgcolor="#ffffff"
+                                    style="color:#7b7b7b; font-family: Arial, Helvetica, sans-serif; font-size: 10px; text-align: justify; text-transform: uppercase; line-height: 15px;"
+                                    class="text-mobile-footer">
+                                    <table width="100%">
+                                        <tbody>
+                                            <tr>
+                                                <td width="4%"></td>
+                                                <td width="92%">
+                                                    <p>
+                                                        AMERICAN EXPRESS OFRECE LOS PRODUCTOS EMITIDOS POR LAS
+                                                        COMPAÑÍAS ASEGURADORAS ALIADAS (DISPONIBLES EN
+                                                        WWW.AMERICANEXPRESS.COM.AR/SEGUROSYSERVICIOS) EN SU CARÁCTER DE
+                                                        AGENTE INSTITORIO, INSCRIPTO EN LA SUPERINTENDENCIA DE SEGUROS
+                                                        DE LA NACIÓN (SSN) BAJO N° 92. TELÉFONO SSN 0800-666-8400,
+                                                        WWW.ARGENTINA.GOB.AR/SSN.
+                                                    </p>
+
+                                                </td>
+                                                <td width="4%"></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td width="4%"></td>
+                                                <td width="92%">
+                                                    <p>
+                                                        LOS DATOS PERSONALES SON ALMACENADOS EN UNA BASE DE DATOS, CUYO
+                                                        RESPONSABLE ES AMERICAN EXPRESS ARGENTINA S.A. CON DOMICILIO
+                                                        LEGAL EN ARENALES 707, ENTREPISO, CP C1061AAA, C.A.B.A. USTED
+                                                        PODRÁ -EN CUALQUIER MOMENTO- SOLICITAR EL RETIRO O BLOQUEO DE
+                                                        SU NOMBRE, TOTAL O PARCIAL, DE NUESTRA BASE DE DATOS Y PODRÁ
+                                                        SOLICITAR INFORMACIÓN ACERCA DEL NOMBRE DEL RESPONSABLE O
+                                                        USUARIO DE LA BASE DE DATOS QUE PROVEYÓ SU INFORMACIÓN. LEY
+                                                        25.326 ART.27. - INC. 3. “EL TITULAR PODRÁ EN CUALQUIER MOMENTO
+                                                        SOLICITAR EL RETIRO O BLOQUEO DE SU NOMBRE DE LOS BANCOS DE
+                                                        DATOS A LOS QUE SE REFIERE EL PRESENTE ARTÍCULO”. DECRETO
+                                                        1558/01 - ART. 27. - 3ER. PÁRRAFO. “EN TODA COMUNICACIÓN CON
+                                                        FINES DE PUBLICIDAD QUE SE REALICE POR CORREO, TELÉFONO, CORREO
+                                                        ELECTRÓNICO, INTERNET U OTRO MEDIO A DISTANCIA A CONOCER, SE
+                                                        DEBERÁ INDICAR, EN FORMA EXPRESA Y DESTACADA, LA POSIBILIDAD
+                                                        DEL TITULAR DEL DATO DE SOLICITAR EL RETIRO O BLOQUEO, TOTAL O
+                                                        PARCIAL, DE SU NOMBRE DE LA BASE DE DATOS. A PEDIDO DEL
+                                                        INTERESADO, SE DEBERÁ INFORMAR EL NOMBRE DEL RESPONSABLE O
+                                                        USUARIO DEL BANCO DE DATOS QUE PROVEYÓ LA INFORMACIÓN”.
+                                                    </p>
+
+                                                </td>
+                                                <td width="4%"></td>
+                                            </tr>
+                                            <tr>
+                                                <td width="4%"></td>
+                                                <td width="92%">
+
+                                                    <p>
+                                                        INSTRUCCIONES PARA CANCELAR LA SUSCRIPCIÓN: ESTE CORREO
+                                                        ELECTRÓNICO PUBLICITARIO ESTÁ DESTINADO A RESIDENTES DE
+                                                        ARGENTINA Y FUE ENVIADO A <*email*>. SI HA SIDO RECIBIDO EN UNA
+                                                            DIRECCIÓN DIFERENTE, SIGNIFICA QUE FUE REENVIADO. SI NO
+                                                            DESEA RECIBIR NUEVOS MENSAJES PUBLICITARIOS EN EL FUTURO,
+                                                            POR FAVOR RESPONDA ESTE E-MAIL CON LA PALABRA “BORRAR” EN EL
+                                                            ASUNTO (SUBJECT), O VISITE LAS PREFERENCIAS DE CORREO
+                                                            ELECTRÓNICO EN EL SITIO WEB DE AMERICAN EXPRESS. SERVICIO
+                                                            AL CLIENTE: POR FAVOR NO RESPONDA (REPLY) ESTE E-MAIL Y
+                                                            DIRIJA TODAS SUS CONSULTAS A SERVICIO AL CLIENTE.
+                                                            DECLARACIÓN SOBRE PRIVACIDAD: PARA SABER CÓMO OBTENEMOS,
+                                                            ASEGURAMOS Y UTILIZAMOS SU INFORMACIÓN PERSONAL CUMPLIENDO
+                                                            CON LA LEY 25.326, VISITE LA DECLARACIÓN SOBRE PRIVACIDAD
+                                                            DE AMERICAN EXPRESS INGRESANDO EN:
+                                                            WWW.AMERICANEXPRESS.COM.AR/PRIVACIDAD
+                                                    </p>
+
+                                                </td>
+                                                <td width="4%"></td>
+                                            </tr>
+                                            <tr>
+                                                <td width="4%"></td>
+                                                <td width="92%">
+                                                    <p>
+                                                        © 2019 AMERICAN EXPRESS COMPANY.
+                                                    </p>
+                                                </td>
+                                                <td width="4%"></td>
+                                            </tr>
+                                            <tr width="100%" height="5"></tr>
+                                            <tr>
+                                                <td width="4%"></td>
+                                                <td width="92%">
+                                                    <img src="./img/SSN.png"
+                                                        alt="Super Intendencia de Seguros de la Nacion"
+                                                        class="imgcomun">
+                                                </td>
+                                                <td width="4%"></td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+
+                                </td>
+                                <td width="4%" bgcolor="#3fa2ff"></td>
+                            </tr>
+                            <tr>
+                                <td width="4%" height="15" bgcolor="#3fa2ff" class="height-15"></td>
+                                <td width="92%" height="15" bgcolor="#ffffff" class="height-15"></td>
+                                <td width="4%" height="15" bgcolor="#3fa2ff" class="height-15"></td>
+                            </tr>
+                            <tr bgcolor="#3fa2ff">
+                                <td width="4%" height="25" class="height-25"></td>
+                                <td width="92%" height="25" class="height-25"></td>
+                                <td width="4%" height="25" class="height-25"></td>
+                            </tr>
+                            
                         </tbody>
                     </table>
                 </td>
+                <!-- END 650px container -->
             </tr>
-        </tbody>
     </table>
-    <!-- 100% background wrapper -->
+    <!-- END 100% background wrapper-->
 </body>
 
 </html>
